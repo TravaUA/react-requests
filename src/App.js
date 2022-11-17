@@ -35,6 +35,7 @@ function App() {
       const response = await fetch(
         "https://react-http-93735-default-rtdb.europe-west1.firebasedatabase.app/movies.json"
       );
+      
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
